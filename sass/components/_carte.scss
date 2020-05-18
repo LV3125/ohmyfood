@@ -1,0 +1,19 @@
+.carte{
+    position: relative;
+    @include flexbox_centerElement;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin: 150px auto;
+    padding: 150px 0px;
+    box-shadow: 0 0 15px $cl_shadow;
+    &__section{
+        position: relative;
+        width: 80%;
+    }
+    span{
+        position: absolute;
+        right: 0;
+        font-weight: bold;
+    }
+}

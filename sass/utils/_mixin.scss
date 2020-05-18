@@ -4,7 +4,34 @@
     justify-content: center;
 }
 
+@mixin flexbox_spaceBetween{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
 @mixin bg_clip{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+@mixin ornement{
+    position: relative;
+    width: 30%;
+    height: 10px;
+    background-size: contain;
+}
+
+@mixin leftOrnement{
+    background-position: left;
+}
+
+@mixin rightOrnement{
+    background-position: right;
+}
+
+@mixin dish{
+    line-height: 40px;
+    letter-spacing: 1px;
+    font-size: 1.1em;
 }
