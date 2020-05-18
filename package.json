@@ -1,0 +1,19 @@
+{
+  "name": "ohmyfood",
+  "version": "1.0.0",
+  "description": "Site de réservation de restaurant et de composition de menus en ligne",
+  "main": "index.html",
+  "scripts": {
+    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LV3125/ohmyfood.git"
+  },
+  "author": "Laura Valez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LV3125/ohmyfood/issues"
+  },
+  "homepage": "https://github.com/LV3125/ohmyfood#readme"
+}
