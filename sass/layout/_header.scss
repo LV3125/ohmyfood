@@ -1,0 +1,12 @@
+header{
+    @include flexbox_centerElement;
+    width: 100%;
+    height: 100px;
+    background: $cl-bg_top-bottom;
+    & h1{
+        color: $cl_title;
+        font-family: $ft_header;
+        font-size: 3em;
+        letter-spacing: -3px;
+    }
+}

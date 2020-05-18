@@ -1,3 +1,16 @@
-
+header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100px;
+  background: #579C87;
+}
+header h1 {
+  color: #FCCB47;
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 3em;
+  letter-spacing: -3px;
+}
 
 /*# sourceMappingURL=style.css.map */
