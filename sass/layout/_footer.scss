@@ -18,4 +18,15 @@ footer{
             right: 50px;
         }
     }
+    @include responsive(phone){
+        & a{
+            font-size: 0.8em;
+            &:first-child{
+                left: 30px;
+            }
+            &:last-child{
+                right: 30px;
+            }
+        }
+    }
 }

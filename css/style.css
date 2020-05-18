@@ -56,6 +56,17 @@ footer a:first-child {
 footer a:last-child {
   right: 50px;
 }
+@media all and (max-width: 500px) {
+  footer a {
+    font-size: 0.8em;
+  }
+  footer a:first-child {
+    left: 30px;
+  }
+  footer a:last-child {
+    right: 30px;
+  }
+}
 
 .container {
   margin: 100px 200px;
