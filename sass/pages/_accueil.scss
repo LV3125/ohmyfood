@@ -6,6 +6,20 @@
     grid-auto-rows: 800px;
     grid-column-gap: 3em;
     grid-row-gap: 3em;
+    @include responsive(desktop){
+        margin: 100px 50px;
+        padding: 1em 1em;
+    }
+    @include responsive(tab-land){
+        grid-template-columns: 1fr;
+    }
+    @include responsive(tab-port){
+        margin: 100px 30px;
+    }
+    @include responsive(phone){
+        margin: 100px 20px;
+        padding: 0;
+    }
     & .menu{
         position: relative;
         box-shadow: 0 0 15px $cl_shadow;
