@@ -255,16 +255,16 @@ footer a:last-child {
   position: relative;
   width: 30%;
   height: 10px;
-  background-size: contain;
   background: url("../css/images/menu_note-sep-left.svg") no-repeat;
+  background-size: contain;
   background-position: left;
 }
 .carte--note__section__title .right {
   position: relative;
   width: 30%;
   height: 10px;
-  background-size: contain;
   background: url("../css/images/menu_note-sep-right.svg") no-repeat;
+  background-size: contain;
   background-position: right;
 }
 .carte--note__section ul li {
@@ -310,6 +310,87 @@ footer a:last-child {
     line-height: 30px;
     margin: 10px 0px;
   }
+}
+
+.carte--chic {
+  background: #FFF4FE;
+}
+.carte--chic__title {
+  text-align: center;
+  font-family: "Croissant One", cursive;
+}
+.carte--chic__title h2 {
+  background: linear-gradient(167deg, #d7842e 0%, #a761aa 61%, #a761aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 2.3em;
+  margin: 5px 0px 50px 0px;
+}
+.carte--chic__section {
+  font-family: "Times New Roman", Times, serif;
+}
+.carte--chic__section__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 40px 0px;
+}
+.carte--chic__section__title h3 {
+  position: relative;
+  font-size: 1.6em;
+  text-align: center;
+  width: 40%;
+  padding-bottom: 10px;
+}
+.carte--chic__section__title .left, .carte--chic__section__title .right {
+  position: relative;
+  width: 30%;
+  height: 10px;
+}
+.carte--chic__section ul li {
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+.carte--chic .color1 {
+  color: #C67411;
+}
+.carte--chic .color1 .left {
+  background: url("../css/images/menu_chic-sep-left.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--chic .color1 .right {
+  background: url("../css/images/menu_chic-sep-right.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.carte--chic .color2 {
+  color: #A56799;
+}
+.carte--chic .color2 .left {
+  background: url("../css/images/menu_chic-sep-left_cl2.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--chic .color2 .right {
+  background: url("../css/images/menu_chic-sep-right_cl2.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.carte--chic .color3 {
+  color: #6E4CCC;
+}
+.carte--chic .color3 .left {
+  background: url("../css/images/menu_chic-sep-left_cl3.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--chic .color3 .right {
+  background: url("../css/images/menu_chic-sep-right_cl3.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
 }
 
 /*# sourceMappingURL=style.css.map */
