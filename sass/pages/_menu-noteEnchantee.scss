@@ -53,4 +53,43 @@
             @include dish;
         }
     }
+    @include responsive(desktop){
+        h3{
+            font-size: 1.4em;
+        }
+        ul li{
+            font-size: 0.95em;
+        }
+    }
+    @include responsive(tab-land){
+        h3{
+            font-size: 1.2em;
+        }
+        ul li{
+            font-size: 0.8em;
+        }
+        p{
+            font-size: 2em;
+            margin-top: 5rem;
+            &::before{
+                width: 40px;
+                height: 40px;
+                left: 40%;
+                top: -100%;
+            }
+        }
+    }
+    @include responsive(tab-port){
+        h2{
+            font-size: 2.2em;
+        }
+        h3{
+            font-size: 1em;
+        }
+        ul li{
+            font-size: 0.7em;
+            line-height: 30px;
+            margin: 10px 0px;
+        }
+    }
 }

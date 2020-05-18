@@ -16,4 +16,13 @@
         right: 0;
         font-weight: bold;
     }
+    @include responsive(desktop){
+        width: 75%;
+        margin: 125px auto;
+    }
+    @include responsive(tab-land){
+        width: 90%;
+        margin: 100px auto;
+        padding: 100px 0px;
+    }
 }

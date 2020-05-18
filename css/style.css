@@ -39,6 +39,19 @@ a {
   right: 0;
   font-weight: bold;
 }
+@media all and (max-width: 1700px) {
+  .carte {
+    width: 75%;
+    margin: 125px auto;
+  }
+}
+@media all and (max-width: 1000px) {
+  .carte {
+    width: 90%;
+    margin: 100px auto;
+    padding: 100px 0px;
+  }
+}
 
 header {
   display: flex;
@@ -258,6 +271,45 @@ footer a:last-child {
   line-height: 40px;
   letter-spacing: 1px;
   font-size: 1.1em;
+}
+@media all and (max-width: 1700px) {
+  .carte--note h3 {
+    font-size: 1.4em;
+  }
+  .carte--note ul li {
+    font-size: 0.95em;
+  }
+}
+@media all and (max-width: 1000px) {
+  .carte--note h3 {
+    font-size: 1.2em;
+  }
+  .carte--note ul li {
+    font-size: 0.8em;
+  }
+  .carte--note p {
+    font-size: 2em;
+    margin-top: 5rem;
+  }
+  .carte--note p::before {
+    width: 40px;
+    height: 40px;
+    left: 40%;
+    top: -100%;
+  }
+}
+@media all and (max-width: 700px) {
+  .carte--note h2 {
+    font-size: 2.2em;
+  }
+  .carte--note h3 {
+    font-size: 1em;
+  }
+  .carte--note ul li {
+    font-size: 0.7em;
+    line-height: 30px;
+    margin: 10px 0px;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
