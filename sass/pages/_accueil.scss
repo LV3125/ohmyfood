@@ -1,0 +1,76 @@
+.container{
+    margin: 100px 200px;
+    padding: 1em 3em;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: 800px;
+    grid-column-gap: 3em;
+    grid-row-gap: 3em;
+    & .menu{
+        position: relative;
+        box-shadow: 0 0 15px $cl_shadow;
+        & a{
+            position: absolute;
+            @include flexbox_centerElement;
+            width: 100%;
+            height: 100%;
+            & div{
+                text-align: center;
+            }
+        }
+        &__1{
+            background: $bg_menuNoteEnchantee;
+            color: $cl_menuNoteEnchantee;
+            & h2{
+                font-family: $ft_menuNoteEnchantee-title;
+                font-size: 2em;
+            }
+            & h3{
+                font-family: $ft_menuNoteEnchantee-menu;
+                font-size: 2.2em;
+            }
+        }
+        &__2{
+            background: $bg_menuChicFrancaise;
+            & h2{
+                background: $deg_menuChicFrancaise;
+                @include bg_clip;
+                font-family: $ft_menuChicFrancaise-title;
+                font-size: 1.5em;
+            }
+            & h3{
+                color: $cl_menuChicFrancaise-menu;
+                font-family: $ft_menuChicFrancaise-menu;
+                font-size: 2.2em;
+            }
+        }
+        &__3{
+            background: $bg_menuDelicePapilles;
+            & h2{
+                background: $deg_menuDelicePapilles;
+                @include bg_clip;
+                font-family: $ft_delicePapilles-title;
+                font-size: 2.5em;
+            }
+            & h3{
+                color: $cl_menuDelicePapilles-menu;
+                font-family: $ft_menuDelicePapilles_menuPaletteGout-menu;
+                font-size: 2.5em;
+            }
+        }
+        &__4{
+            background: $bg_menuPaletteGout;
+            & h2{
+                background: $deg_menuPaletteGout;
+                @include bg_clip;
+                font-family: $ft_paletteGout-title;
+                font-size: 2.5em;
+            }
+            & h3{
+                color: $cl_menuPaletteGout-menu;
+                font-family: $ft_menuDelicePapilles_menuPaletteGout-menu;
+                font-size: 2.5em;
+            }
+        }
+    }
+}

@@ -3,3 +3,8 @@
     align-items: center;
     justify-content: center;
 }
+
+@mixin bg_clip{
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}

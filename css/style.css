@@ -53,4 +53,86 @@ footer a:last-child {
   right: 50px;
 }
 
+.container {
+  margin: 100px 200px;
+  padding: 1em 3em;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-rows: 800px;
+  grid-column-gap: 3em;
+  grid-row-gap: 3em;
+}
+.container .menu {
+  position: relative;
+  box-shadow: 0 0 15px #8B8B8B;
+}
+.container .menu a {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+}
+.container .menu a div {
+  text-align: center;
+}
+.container .menu__1 {
+  background: #FBDFDB;
+  color: #000;
+}
+.container .menu__1 h2 {
+  font-family: "Devonshire", cursive;
+  font-size: 2em;
+}
+.container .menu__1 h3 {
+  font-family: "Itim", cursive;
+  font-size: 2.2em;
+}
+.container .menu__2 {
+  background: #FFF4FE;
+}
+.container .menu__2 h2 {
+  background: linear-gradient(167deg, #d7842e 0%, #a761aa 61%, #a761aa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Croissant One", cursive;
+  font-size: 1.5em;
+}
+.container .menu__2 h3 {
+  color: #C77413;
+  font-family: "Playfair Display", serif;
+  font-size: 2.2em;
+}
+.container .menu__3 {
+  background: #F9F9F9;
+}
+.container .menu__3 h2 {
+  background: linear-gradient(167deg, #2100dd 0%, #007bfa 51%, #007bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Dancing Script", cursive;
+  font-size: 2.5em;
+}
+.container .menu__3 h3 {
+  color: #0078FC;
+  font-family: "Kalam", cursive;
+  font-size: 2.5em;
+}
+.container .menu__4 {
+  background: #FDFFFD;
+}
+.container .menu__4 h2 {
+  background: linear-gradient(125deg, #4da142 0%, #bcff76 68%, #bcff76 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-family: "Kaushan Script", cursive;
+  font-size: 2.5em;
+}
+.container .menu__4 h3 {
+  color: #6CBD4D;
+  font-family: "Kalam", cursive;
+  font-size: 2.5em;
+}
+
 /*# sourceMappingURL=style.css.map */
