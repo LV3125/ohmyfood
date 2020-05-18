@@ -14,6 +14,10 @@ a {
   color: inherit;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 header {
   display: flex;
   align-items: center;
