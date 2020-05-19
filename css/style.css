@@ -429,4 +429,76 @@ footer a:last-child {
   }
 }
 
+.carte--delice {
+  background: #F9F9F9;
+}
+.carte--delice__title {
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}
+.carte--delice__title h2 {
+  background: linear-gradient(167deg, #2100dd 0%, #007bfa 51%, #007bfa 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 4.8em;
+  margin: 5px 0px 50px 0px;
+}
+.carte--delice__section {
+  font-family: "Handlee", cursive;
+}
+.carte--delice__section__title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  margin: 40px 0px;
+}
+.carte--delice__section__title h3 {
+  font-size: 1.4em;
+  text-align: center;
+  width: 30%;
+  padding-bottom: 10px;
+  position: relative;
+}
+.carte--delice__section .left, .carte--delice__section .right {
+  position: relative;
+  width: 30%;
+  height: 10px;
+}
+.carte--delice__section ul li {
+  line-height: 40px;
+  letter-spacing: 1px;
+  font-size: 1.1em;
+}
+.carte--delice .color1 .left {
+  background: url("../css/images/menu_delice-sep-left.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--delice .color1 .right {
+  background: url("../css/images/menu_delice-sep-right.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.carte--delice .color2 .left {
+  background: url("../css/images/menu_delice-sep-left_cl2.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--delice .color2 .right {
+  background: url("../css/images/menu_delice-sep-right_cl2.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+.carte--delice .color3 .left {
+  background: url("../css/images/menu_delice-sep-left_cl3.svg") no-repeat;
+  background-size: contain;
+  background-position: left;
+}
+.carte--delice .color3 .right {
+  background: url("../css/images/menu_delice-sep-right_cl3.svg") no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
 /*# sourceMappingURL=style.css.map */
