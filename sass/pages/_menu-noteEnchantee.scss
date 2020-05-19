@@ -25,7 +25,7 @@
         }
     }
     &__section{
-        font-family: $ft_menuNoteEnchantee-section;
+        font-family: 'Handlee', cursive;
         &__title{
             @include flexbox_spaceBetween;
             position: relative;
