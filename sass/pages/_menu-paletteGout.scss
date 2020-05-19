@@ -6,7 +6,7 @@
         & h2{
             background: $deg_menuPaletteGout;
             @include bg_clip;
-            font-size: 4em;
+            font-size: 3.5em;
             margin: 5px 0px 50px 0px;
         }
     }
@@ -36,6 +36,36 @@
         }
         & ul li{
             @include dish;
+        }
+    }
+    @include responsive(desktop){
+        h3{
+            font-size: 1.4em;
+        }
+        ul li{
+            font-size: 0.95em;
+        }
+    }
+    @include responsive(tab-land){
+        h3{
+            font-size: 1.2em;
+        }
+        ul li{
+            font-size: 0.8em;
+        }
+    }
+    @include responsive(tab-port){
+        h2{
+            font-size: 2em;
+        }
+        h3{
+            font-size: 1em;
+        }
+        ul li{
+            font-size: 0.7em;
+            line-height: 30px;
+            margin: 10px 0px;
+            width: 80%;
         }
     }
 }
