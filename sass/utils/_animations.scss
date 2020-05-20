@@ -20,3 +20,12 @@
         transform: rotate(0);
     }
 }
+
+// ANIMATION WAITING POINT SUSPENSION
+// ************************************
+@keyframes waiting{
+    50%{
+        opacity: 0;
+        transform: scale(0.7) translateY(5px);
+    }
+}
