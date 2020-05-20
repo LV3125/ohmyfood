@@ -18,7 +18,15 @@ a {
   text-transform: uppercase;
 }
 
-.carte {
+.center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.carte, .mentions {
   position: relative;
   display: flex;
   align-items: center;
@@ -34,19 +42,19 @@ a {
   position: relative;
   width: 80%;
 }
-.carte span {
+.carte span, .mentions span {
   position: absolute;
   right: 0;
   font-weight: bold;
 }
 @media all and (max-width: 1700px) {
-  .carte {
+  .carte, .mentions {
     width: 75%;
     margin: 125px auto;
   }
 }
 @media all and (max-width: 1000px) {
-  .carte {
+  .carte, .mentions {
     width: 90%;
     margin: 100px auto;
     padding: 100px 0px;
@@ -614,6 +622,35 @@ footer a:last-child {
     margin: 10px 0px;
     width: 80%;
   }
+}
+
+.mentions {
+  padding: 100px;
+}
+.mentions__title {
+  color: #FCCB47;
+  font-family: "Ramabhadra", sans-serif;
+  font-size: 1.5em;
+  letter-spacing: 2px;
+  margin-bottom: 40px;
+}
+.mentions__point {
+  margin-bottom: 40px;
+  width: 100%;
+  font-family: "Varela", sans-serif;
+}
+.mentions__point h3 {
+  color: #FCCB47;
+  font-size: 1.5em;
+}
+.mentions__point a {
+  font-weight: bold;
+}
+.mentions__point .center {
+  margin-top: 40px;
+}
+.mentions__point span {
+  position: relative;
 }
 
 /*# sourceMappingURL=style.css.map */

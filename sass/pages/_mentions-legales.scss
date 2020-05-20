@@ -1,0 +1,29 @@
+.mentions{
+    @extend .carte;
+    padding: 100px;
+    &__title{
+        color: $cl_title;
+        font-family: $ft_header;
+        font-size: 1.5em;
+        letter-spacing: 2px;
+        margin-bottom: 40px;
+    }
+    &__point{
+        margin-bottom: 40px;
+        width: 100%;
+        font-family: $ft_textAcceuil;
+        & h3{
+            color: $cl_title;
+            font-size: 1.5em;
+        }
+        & a{
+            font-weight: bold;
+        }
+        & .center{
+            margin-top: 40px;
+        }
+        & span{
+            position: relative;
+        }
+    }
+}
