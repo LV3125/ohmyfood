@@ -4,7 +4,8 @@
   "description": "Site de réservation de restaurant et de composition de menus en ligne",
   "main": "index.html",
   "scripts": {
-    "sass": "sass --watch ./sass/main.scss:./css/style.css"
+    "sass": "sass --watch ./sass/main.scss:./css/style.css",
+    "prefix": "postcss ./css/style.css --use autoprefixer -d ./css/prefixed/"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,6 @@
   "bugs": {
     "url": "https://github.com/LV3125/ohmyfood/issues"
   },
-  "homepage": "https://github.com/LV3125/ohmyfood#readme"
+  "homepage": "https://github.com/LV3125/ohmyfood#readme",
+  "browserslist": "last 4 versions"
 }
