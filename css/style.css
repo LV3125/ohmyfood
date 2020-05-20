@@ -144,6 +144,13 @@ footer a:last-child {
 .container .menu {
   position: relative;
   box-shadow: 0 0 15px #8B8B8B;
+  transition: all 0.5s;
+}
+.container .menu:hover {
+  opacity: 0.5;
+}
+.container .menu:hover a div {
+  transform: scale(1.2);
 }
 .container .menu a {
   position: absolute;
@@ -155,6 +162,7 @@ footer a:last-child {
 }
 .container .menu a div {
   text-align: center;
+  transition: all 0.5s;
 }
 .container .menu__1 {
   background: #FBDFDB;
