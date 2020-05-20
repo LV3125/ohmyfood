@@ -11,6 +11,7 @@ footer{
         color: $cl_title;
         font-family: $ft_textAcceuil;
         font-size: 1.2em;
+        animation: wiggle 1s linear infinite;
         &:first-child{
             left: 50px;
         }
