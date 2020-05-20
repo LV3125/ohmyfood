@@ -287,6 +287,12 @@ aside ul li:nth-child(2) {
 aside ul li:nth-child(3) {
   animation-delay: 0.4s;
 }
+@media all and (max-width: 700px) {
+  aside {
+    width: 12em;
+    margin: 5em auto;
+  }
+}
 
 .carte--note {
   background: #FBDFDB;

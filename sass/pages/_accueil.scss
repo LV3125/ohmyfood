@@ -129,4 +129,8 @@ aside{
             }
         }
     }
+    @include responsive(tab-port){
+        width: 12em;
+        margin: 5em auto;
+    }
 }
