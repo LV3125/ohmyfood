@@ -27,6 +27,7 @@
                 position: relative;
                 &::after{
                     @include hover_h3-afterElement;
+                    background: $cl_menuNoteEnchantee;
                 }
             }
         }

@@ -40,6 +40,9 @@
     }
     & .color1{
         color: $cl_menuChicFrancaise-section1;
+        & h3::after{
+            background: $cl_menuChicFrancaise-section1;
+        }
         & .left{
             background: url("../css/images/menu_chic-sep-left.svg") no-repeat;
             @include leftOrnement;
@@ -51,6 +54,9 @@
     }
     & .color2{
         color: $cl_menuChicFrancaise-section2;
+        & h3::after{
+            background: $cl_menuChicFrancaise-section2;
+        }
         & .left{
             background: url("../css/images/menu_chic-sep-left_cl2.svg") no-repeat;
             @include leftOrnement;
@@ -62,6 +68,9 @@
     }
     & .color3{
         color: $cl_menuChicFrancaise-section3;
+        & h3::after{
+            background: $cl_menuChicFrancaise-section3;
+        }
         & .left{
             background: url("../css/images/menu_chic-sep-left_cl3.svg") no-repeat;
             @include leftOrnement;
