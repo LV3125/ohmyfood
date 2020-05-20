@@ -16,12 +16,18 @@
             @include flexbox_spaceBetween;
             position: relative;
             margin: 40px 0px;
+            &:hover h3::after{
+                transform: scaleX(1);
+            }
             & h3{
                 font-size: 1.6em;
                 text-align: center;
                 width: 30%;
                 padding-bottom: 10px;
                 position: relative;
+                &::after{
+                    @include hover_h3-afterElement;
+                }
             }
         }
         & .left, .right{
