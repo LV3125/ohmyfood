@@ -773,19 +773,17 @@ aside ul li:nth-child(3) {
   }
 }
 
-.mentions {
-  padding: 100px;
-}
 .mentions__title {
   color: #FCCB47;
   font-family: "Ramabhadra", sans-serif;
   font-size: 1.5em;
   letter-spacing: 2px;
   margin-bottom: 40px;
+  text-align: center;
 }
 .mentions__point {
   margin-bottom: 40px;
-  width: 100%;
+  width: 80%;
   font-family: "Varela", sans-serif;
 }
 .mentions__point h3 {

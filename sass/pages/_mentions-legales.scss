@@ -1,16 +1,16 @@
 .mentions{
     @extend .carte;
-    padding: 100px;
     &__title{
         color: $cl_title;
         font-family: $ft_header;
         font-size: 1.5em;
         letter-spacing: 2px;
         margin-bottom: 40px;
+        text-align: center;
     }
     &__point{
         margin-bottom: 40px;
-        width: 100%;
+        width: 80%;
         font-family: $ft_textAcceuil;
         & h3{
             color: $cl_title;
