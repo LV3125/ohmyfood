@@ -52,6 +52,11 @@ a {
   font-weight: bold;
 }
 
+img {
+  width: 80px;
+  height: 80px;
+}
+
 .carte, .mentions {
   position: relative;
   display: flex;
@@ -312,7 +317,7 @@ aside ul li:nth-child(3) {
   content: "";
   position: absolute;
   left: -30%;
-  background: url("../css/images/music_note.svg") no-repeat;
+  background: url("../../css/images/music_note.svg") no-repeat;
   background-size: contain;
   width: 50px;
   height: 50px;
@@ -357,7 +362,7 @@ aside ul li:nth-child(3) {
   position: relative;
   width: 30%;
   height: 10px;
-  background: url("../css/images/menu_note-sep-left.svg") no-repeat;
+  background: url("../../css/images/menu_note-sep-left.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
@@ -365,7 +370,7 @@ aside ul li:nth-child(3) {
   position: relative;
   width: 30%;
   height: 10px;
-  background: url("../css/images/menu_note-sep-right.svg") no-repeat;
+  background: url("../../css/images/menu_note-sep-right.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -476,12 +481,12 @@ aside ul li:nth-child(3) {
   background: #C67411;
 }
 .carte--chic .color1 .left {
-  background: url("../css/images/menu_chic-sep-left.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-left.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--chic .color1 .right {
-  background: url("../css/images/menu_chic-sep-right.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-right.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -492,12 +497,12 @@ aside ul li:nth-child(3) {
   background: #A56799;
 }
 .carte--chic .color2 .left {
-  background: url("../css/images/menu_chic-sep-left_cl2.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-left_cl2.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--chic .color2 .right {
-  background: url("../css/images/menu_chic-sep-right_cl2.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-right_cl2.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -508,12 +513,12 @@ aside ul li:nth-child(3) {
   background: #6E4CCC;
 }
 .carte--chic .color3 .left {
-  background: url("../css/images/menu_chic-sep-left_cl3.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-left_cl3.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--chic .color3 .right {
-  background: url("../css/images/menu_chic-sep-right_cl3.svg") no-repeat;
+  background: url("../../css/images/menu_chic-sep-right_cl3.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -607,32 +612,32 @@ aside ul li:nth-child(3) {
   font-size: 1.1em;
 }
 .carte--delice .color1 .left {
-  background: url("../css/images/menu_delice-sep-left.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-left.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--delice .color1 .right {
-  background: url("../css/images/menu_delice-sep-right.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-right.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
 .carte--delice .color2 .left {
-  background: url("../css/images/menu_delice-sep-left_cl2.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-left_cl2.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--delice .color2 .right {
-  background: url("../css/images/menu_delice-sep-right_cl2.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-right_cl2.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
 .carte--delice .color3 .left {
-  background: url("../css/images/menu_delice-sep-left_cl3.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-left_cl3.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
 .carte--delice .color3 .right {
-  background: url("../css/images/menu_delice-sep-right_cl3.svg") no-repeat;
+  background: url("../../css/images/menu_delice-sep-right_cl3.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }
@@ -720,7 +725,7 @@ aside ul li:nth-child(3) {
   position: relative;
   width: 30%;
   height: 10px;
-  background: url("../css/images/menu_palette-sep-left.svg") no-repeat;
+  background: url("../../css/images/menu_palette-sep-left.svg") no-repeat;
   background-size: contain;
   background-position: left;
 }
@@ -728,7 +733,7 @@ aside ul li:nth-child(3) {
   position: relative;
   width: 30%;
   height: 10px;
-  background: url("../css/images/menu_palette-sep-right.svg") no-repeat;
+  background: url("../../css/images/menu_palette-sep-right.svg") no-repeat;
   background-size: contain;
   background-position: right;
 }

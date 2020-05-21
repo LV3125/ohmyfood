@@ -40,31 +40,31 @@
     }
     & .color1{
         & .left{
-            background: url("../css/images/menu_delice-sep-left.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-left.svg") no-repeat;
             @include leftOrnement;
         }
         & .right{
-            background: url("../css/images/menu_delice-sep-right.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-right.svg") no-repeat;
             @include rightOrnement;
         }
     }
     & .color2{
         & .left{
-            background: url("../css/images/menu_delice-sep-left_cl2.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-left_cl2.svg") no-repeat;
             @include leftOrnement;
         }
         & .right{
-            background: url("../css/images/menu_delice-sep-right_cl2.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-right_cl2.svg") no-repeat;
             @include rightOrnement;
         }
     }
     & .color3{
         & .left{
-            background: url("../css/images/menu_delice-sep-left_cl3.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-left_cl3.svg") no-repeat;
             @include leftOrnement;
         }
         & .right{
-            background: url("../css/images/menu_delice-sep-right_cl3.svg") no-repeat;
+            background: url("../../css/images/menu_delice-sep-right_cl3.svg") no-repeat;
             @include rightOrnement;
         }
     }

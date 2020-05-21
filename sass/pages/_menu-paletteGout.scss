@@ -32,12 +32,12 @@
             }
             & .left{
                 @include ornement;
-                background: url("../css/images/menu_palette-sep-left.svg") no-repeat;
+                background: url("../../css/images/menu_palette-sep-left.svg") no-repeat;
                 @include leftOrnement;
             }
             & .right{
                 @include ornement;
-                background: url("../css/images/menu_palette-sep-right.svg") no-repeat;
+                background: url("../../css/images/menu_palette-sep-right.svg") no-repeat;
                 @include rightOrnement;
             }
         }
