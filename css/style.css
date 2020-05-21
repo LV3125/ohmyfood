@@ -784,9 +784,15 @@ aside ul li:nth-child(3) {
   }
   .carte--palette ul li {
     font-size: 0.7em;
-    line-height: 30px;
-    margin: 10px 0px;
-    width: 80%;
+    line-height: 20px;
+    margin: 40px 0px;
+    text-align: center;
+    position: relative;
+  }
+  .carte--palette ul li span {
+    position: absolute;
+    width: 100%;
+    margin: 20px auto;
   }
 }
 
