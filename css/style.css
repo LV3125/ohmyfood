@@ -409,11 +409,7 @@ aside ul li:nth-child(3) {
   .carte--note h2 {
     font-size: 2.2em;
   }
-  .carte--note h3 {
-    font-size: 1em;
-  }
   .carte--note ul li {
-    font-size: 0.7em;
     line-height: 20px;
     margin: 40px 0px;
     text-align: center;
@@ -549,11 +545,7 @@ aside ul li:nth-child(3) {
   .carte--chic h2 {
     font-size: 1.8em;
   }
-  .carte--chic h3 {
-    font-size: 1em;
-  }
   .carte--chic ul li {
-    font-size: 0.7em;
     line-height: 20px;
     margin: 40px 0px;
     text-align: center;
@@ -675,11 +667,7 @@ aside ul li:nth-child(3) {
   .carte--delice h2 {
     font-size: 2.2em;
   }
-  .carte--delice h3 {
-    font-size: 1em;
-  }
   .carte--delice ul li {
-    font-size: 0.7em;
     line-height: 20px;
     margin: 40px 0px;
     text-align: center;
@@ -779,11 +767,7 @@ aside ul li:nth-child(3) {
   .carte--palette h2 {
     font-size: 2em;
   }
-  .carte--palette h3 {
-    font-size: 1em;
-  }
   .carte--palette ul li {
-    font-size: 0.7em;
     line-height: 20px;
     margin: 40px 0px;
     text-align: center;
