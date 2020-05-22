@@ -1,3 +1,6 @@
+// STYLE POUR PAGE DU MENU Palette du goût
+// avec effet au survol des sous-titre entrée, plat et dessert
+// **************************************************************
 .carte--palette{
     background: $bg_menuPaletteGout;
     &__title{
@@ -7,24 +10,19 @@
             background: $deg_menuPaletteGout;
             @include bg_clip;
             font-size: 3.5em;
-            margin: 5px 0px 50px 0px;
+            @include carte_marginH2;
         }
     }
     &__section{
         font-family: $ft_menuDelicePapilles-section;
         &__title{
             @include flexbox_spaceBetween;
-            position: relative;
-            margin: 40px 0px;
+            @include section_styleTitle;
             &:hover h3::after{
                 transform: scaleX(1);
             }
             & h3{
-                position: relative;
-                font-size: 1.6em;
-                text-align: center;
-                width: 30%;
-                padding-bottom: 10px;
+                @include section_styleH3;
                 &::after{
                     @include hover_h3-afterElement;
                     background: $cl_menuNoteEnchantee;
@@ -45,35 +43,33 @@
             @include dish;
         }
     }
+    // Règles pour écran <1700px
     @include responsive(desktop){
         h3{
-            font-size: 1.4em;
+            @include desktop_menuH3;
         }
         ul li{
-            font-size: 0.95em;
+            @include desktop_menuDish;
         }
     }
+    // Règles pour écran <1000px
     @include responsive(tab-land){
         h3{
-            font-size: 1.2em;
+            @include tabLand_menuH3;
         }
         ul li{
-            font-size: 0.8em;
+            @include tabLand_menuDish;
         }
     }
+    // Règles pour écran <700px
     @include responsive(tab-port){
         h2{
             font-size: 2em;
         }
         ul li{
-            line-height: 20px;
-            margin: 40px 0px;
-            text-align: center;
-            position: relative;
+            @include tapPort_menuDish;
             span{
-                position: absolute;
-                width: 100%;
-                margin: 20px auto;
+                @include tabPort_menuPrice; 
             }
         }
     }

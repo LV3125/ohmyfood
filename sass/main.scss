@@ -1,29 +1,28 @@
-//UTILS
-@import "utils/font";
-@import "utils/mixin";
-@import "utils/variables";
-@import "utils/medias";
-@import "utils/animations";
+// MAIN.SCSS
+// Feuille de style principale en .scss
+// Compilée en style.css
+    //UTILS
+    @import "utils/font";
+    @import "utils/mixin";
+    @import "utils/variables";
+    @import "utils/medias";
+    @import "utils/animations";
 
-//VENDORS
+    //BASE
+    @import "base/reset";
 
-//BASE
-@import "base/reset";
+    //COMPONENTS
+    @import "components/global";
+    @import "components/carte";
 
-//COMPONENTS
-@import "components/global";
-@import "components/carte";
+    //LAYOUT
+    @import "layout/header";
+    @import "layout/footer";
 
-//LAYOUT
-@import "layout/header";
-@import "layout/footer";
-
-//PAGES
-@import "pages/accueil";
-@import "pages/menu-noteEnchantee";
-@import "pages/menu-chicFrancaise";
-@import "pages/menu-delicePapilles";
-@import "pages/menu-paletteGout";
-@import "pages/mentions-legales";
-
-//THEMES
+    //PAGES
+    @import "pages/accueil";
+    @import "pages/menu-noteEnchantee";
+    @import "pages/menu-chicFrancaise";
+    @import "pages/menu-delicePapilles";
+    @import "pages/menu-paletteGout";
+    @import "pages/mentions-legales";

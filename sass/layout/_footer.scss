@@ -1,3 +1,7 @@
+// STYLE POUR ELEMENT FOOTER 
+// présent sur toutes les pages et fixe
+// avec effet d'animation en continu (wiggle)
+// *******************************************
 footer{
     @include flexbox_centerElement;
     position: fixed;
@@ -19,6 +23,7 @@ footer{
             right: 50px;
         }
     }
+    //Règles pour écran <500px
     @include responsive(phone){
         & a{
             font-size: 0.8em;

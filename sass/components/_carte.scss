@@ -1,3 +1,5 @@
+// STYLE GLOBAL ELEMENT .carte
+// *****************************
 .carte{
     position: relative;
     @include flexbox_centerElement;
@@ -16,10 +18,12 @@
         right: 0;
         font-weight: bold;
     }
+    // Règles pour écran <1700px
     @include responsive(desktop){
         width: 75%;
         margin: 125px auto;
     }
+    // Règles pour écran <1000px
     @include responsive(tab-land){
         width: 90%;
         margin: 100px auto;

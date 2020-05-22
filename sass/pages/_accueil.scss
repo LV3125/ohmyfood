@@ -1,3 +1,8 @@
+// STYLE POUR LA PAGE D'ACCUEIL
+// pour la partie <main></main>
+// présentation des 4 menus
+// avec effet d'animation au survol
+// **********************************
 .container{
     margin: 100px 200px;
     padding: 1em 3em;
@@ -81,25 +86,32 @@
             }
         }
     }
+    // Règles pour écran <1700px
     @include responsive(desktop){
         margin: 100px 50px;
         padding: 1em 1em;
     }
+    // Règles pour écran <1000px
     @include responsive(tab-land){
         grid-template-columns: 1fr;
     }
+    // Règles pour écran <700px
     @include responsive(tab-port){
         margin: 100px 30px;
         .menu a div{
             padding: 1.5em;
         }
     }
+    // Règles pour écran <500px
     @include responsive(phone){
         margin: 100px 20px;
         padding: 0;
     }
 }
 
+// STYLE POUR L'ELEMENT aside : prochainement
+// avec animation des points de suspensions en continu
+// ******************************************************
 aside{
     @include flexbox_centerElement;
     width: 20em;
@@ -129,6 +141,7 @@ aside{
             }
         }
     }
+    // Règles pour écran <700px
     @include responsive(tab-port){
         width: 12em;
         margin: 5em auto;

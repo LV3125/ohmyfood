@@ -1,3 +1,5 @@
+// MIXIN pour établir les différents breakpoints pour les médias queries
+// ***********************************************************************
 @mixin responsive($breakpoint) {
     @if($breakpoint == phone){
         @media all and (max-width: 500px){ @content };
