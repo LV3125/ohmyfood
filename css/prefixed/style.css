@@ -445,7 +445,7 @@ aside ul li:nth-child(3) {
 }
 .carte--note__section__title h3 {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
   width: 30%;
   padding-bottom: 10px;
@@ -491,7 +491,7 @@ aside ul li:nth-child(3) {
 }
 @media all and (max-width: 1700px) {
   .carte--note h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .carte--note ul li {
     font-size: 0.95em;
@@ -570,7 +570,7 @@ aside ul li:nth-child(3) {
 }
 .carte--chic__section__title h3 {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
   width: 30%;
   padding-bottom: 10px;
@@ -652,7 +652,7 @@ aside ul li:nth-child(3) {
 }
 @media all and (max-width: 1700px) {
   .carte--chic h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .carte--chic ul li {
     font-size: 0.95em;
@@ -727,7 +727,7 @@ aside ul li:nth-child(3) {
 }
 .carte--delice__section__title h3 {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
   width: 30%;
   padding-bottom: 10px;
@@ -792,7 +792,7 @@ aside ul li:nth-child(3) {
 }
 @media all and (max-width: 1700px) {
   .carte--delice h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .carte--delice ul li {
     font-size: 0.95em;
@@ -870,7 +870,7 @@ aside ul li:nth-child(3) {
 }
 .carte--palette__section__title h3 {
   position: relative;
-  font-size: 1.5em;
+  font-size: 1.4em;
   text-align: center;
   width: 30%;
   padding-bottom: 10px;
@@ -916,7 +916,7 @@ aside ul li:nth-child(3) {
 }
 @media all and (max-width: 1700px) {
   .carte--palette h3 {
-    font-size: 1.4em;
+    font-size: 1.3em;
   }
   .carte--palette ul li {
     font-size: 0.95em;
