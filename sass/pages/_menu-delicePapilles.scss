@@ -99,4 +99,10 @@
             }
         }
     }
+    // Règle pour écran <500px
+    @include responsive(phone){
+        h3{
+            @include phone_menuH3;
+        }
+    }
 }
