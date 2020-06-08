@@ -560,6 +560,7 @@ aside ul li:nth-child(3) {
 @media all and (max-width: 500px) {
   .carte--chic h3 {
     width: 40%;
+    font-size: 1em;
   }
 }
 
@@ -687,6 +688,7 @@ aside ul li:nth-child(3) {
 @media all and (max-width: 500px) {
   .carte--delice h3 {
     width: 40%;
+    font-size: 1em;
   }
 }
 
